@@ -1,13 +1,13 @@
 import React from "react";
 import "./App.css";
-import Navbar from "./components/Dashboard/Navbar";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Navbar from "./components/Dashboard/Navbar";
+import ShowCButton from "./components/Dashboard/ShowCButton";
 import Incidents from "./components/pages/incidents";
 import Locations from "./components/pages/Locations";
 import Activities from "./components/pages/Activities";
 import Documents from "./components/pages/Documents";
 import CypherAI from "./components/pages/CypherAI";
-import ShowCButton from "./components/Dashboard/ShowCButton";
 
 function App() {
   return (

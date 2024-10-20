@@ -1,6 +1,6 @@
 import React from "react";
 import Hero from "../common/hero";
-import NewLocation from "./Newlocation";
+import NewLocation from "./NewLocation";
 
 function Locations() {
   return (

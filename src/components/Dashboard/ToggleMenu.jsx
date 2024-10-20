@@ -1,6 +1,6 @@
 import React from "react";
-import { navItems } from "../../lib/db";
 import { NavLink, Outlet } from "react-router-dom";
+import { navItems } from "../../lib/db";
 
 export const ToggleMenu = ({ toggleMenu }) => {
   return (

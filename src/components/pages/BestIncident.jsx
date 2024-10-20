@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import IncidentHero from "../common/IncidentHero";
 import { Container } from "../common/container";
-import { bestIncident } from "../../lib/db";
 import { Button } from "../common/button";
 import IncidentInput from "./IncidentInput";
+import { bestIncident } from "../../lib/db";
 import Incidents from "./incidents";
 
 export default function BestIncident({ Backing, onClose }) {
